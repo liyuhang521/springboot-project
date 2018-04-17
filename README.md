@@ -16,6 +16,7 @@
     * [卖家端（PC端）](#卖家端（PC端）)
     * [买家端（手机微信端）](#买家端（手机微信端）)
     * [买家端和卖家端的通信](#买家端和卖家端的通信)
+* [声明](#声明)
 ------------
 ## 项目介绍  
 * 前端是由Vue.js构建的WebApp，后端由Spring Boot打造，后端的前台页面使用Bootstap+Freemarker+JQuery构建,后端和前端通过RESTful风格的接口相连。
@@ -121,5 +122,16 @@
 
 这时微信那边就会收到如下的模板消息。   
 
-![](https://github.com/sqmax/springboot-project/blob/blog/pic/29.jpg)
+![](https://github.com/sqmax/springboot-project/blob/blog/pic/29.jpg)      
+
+### 声明
+
+本仓库记录我在慕课网学习Spring Boot企业微信点餐系统实战课程的总结，该项目涉及到的业务逻辑相对简单，而且前后端完全分离（前端是另外一位老师的Vue.js实战课程打造），本项目只涉及后端实现，但使用的都是当下比较热门的技术，比较适合个人学习。我会在该项目上不断改进，比如会使用MyBatis完全替换JPA,来实现DAO层，还会加入一些新的功能。另外，老师后续还有一门进阶课程-Spring Cloud实现微服务的实战课程，我也会去学习，到时为该项目增加新的特征。
+
+这里源码都是我对照视频敲下来，并一点点理解的，但课程是收费的，源码对外也不开放，所以我这里没有完全公开源码，把业务实现类，即*ServiceImpl里的代码都删除了。有兴趣的同学可以到慕课网学习，学习过程中遇到问题，也可以和我讨论。我会对本项目不断改造，到时我比较自信地觉得项目是我个人完成的时候，我会把源码全部放到上面。    
+
+下面是师兄的慕课网实战课程：  
+[Spring Cloud微服务实战课程](https://coding.imooc.com/class/187.html)    
+[Spring Boot企业微信点餐系统](https://coding.imooc.com/learn/list/117.html)
+
 
